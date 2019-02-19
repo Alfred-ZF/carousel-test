@@ -20,7 +20,7 @@ var size = allButtons.length
 var timeId = setInterval(() => {
   x(allButtons.eq(a % size))
   a += 1
-}, 1000)
+}, 2000)
 
 $('.window').on('mouseenter', function () {
   window.clearInterval(timeId)
